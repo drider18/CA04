@@ -5,16 +5,16 @@ This program uses a census dataset and builds a random forest model from it to a
 
 The packages we needed are stated below:
 
-import pandas as pd
-import numpy as np
-import sklearn
-import sklearn.metrics as metrics
-import matplotlib.pyplot as plt
-from google.colab import drive
-import sklearn.ensemble
-from sklearn.ensemble import AdaBoostClassifier,GradientBoostingClassifier
-!pip install xgboost
-import xgboost as xgb
+import pandas as pd,
+import numpy as np,
+import sklearn,
+import sklearn.metrics as metrics, 
+import matplotlib.pyplot as plt, 
+from google.colab import drive, 
+import sklearn.ensemble, 
+from sklearn.ensemble import AdaBoostClassifier,GradientBoostingClassifier, 
+!pip install xgboost, 
+import xgboost as xgb, 
 
 In order to download the data I used google drive and imported drive. We then have to mount our document to our drive. Lastly, in order to read in the data we simply connect it to our Colab Notebooks and then we are ready to connect to our data and perform our analysis.
 
